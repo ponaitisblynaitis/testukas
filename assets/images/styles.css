@@ -1,0 +1,125 @@
+/* 
+teksto spalva #6b6b6b
+font-family: "Open Sans", Arial, Helvetica, sans-serif;
+brown   #986665
+colors of block
+green   #98cb00
+orange  #cc6733
+blue    #3398cc
+grey    #676767 
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 15px;
+}
+
+/* 
+-----------------------------
+hero section style 
+-----------------------------
+*/
+
+.hero {
+    width: 100%;
+    background-image: url('../image/mini-profile-bg-01.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 1100px;
+}
+
+.hero_banner {
+    color: #fff;
+    min-height: 700px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.banner_box {
+    padding: 80px;
+    background-color: rgba(0,0,0, 0.5);
+
+    text-align: center;
+    line-height: 1.5;
+    flex-basis: 460px;
+}
+.banner_box h1{
+    font-size: 50px;
+    font-weight: 400;
+}
+.banner_box p{
+    font-size: 18px;
+}
+
+.hero_info {
+    min-height: 400px;
+    width: 100%;
+    background-color: rgba(255,255,255,0.8);
+    font-size: 20px;
+   
+}
+
+.info_flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.info_text{
+    color:#6b6b6b;
+    line-height: 1.5;
+    padding: 20px 30px 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-basis: 400px;
+    flex-grow: 5;
+
+
+}
+
+.info_text h2 {
+    font-weight: 400;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.info_text a {
+    text-decoration: none;
+    color: #3398cc;
+}
+
+.info_image {
+    background-color: #986665;
+    min-height: 400px;
+    /* min-width: 460px; */
+    padding: 50px 30px;
+    color:#fff;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-basis: 460px;
+    flex-shrink: 1;
+    flex-grow: 1;
+}
+
+.info_image img, .info_image p {
+    margin: 20px 0 40px 0;
+}
+
+/* 
+-----------------------------
+main content style 
+-----------------------------
+*/
